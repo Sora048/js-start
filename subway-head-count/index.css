@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-image: url(station.jpg);
+    opacity: .9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: .85rem;
+    margin: 0 auto;
+}
+h1{
+    text-transform: uppercase;
+    color: rgb(242, 138, 11);
+}
+
+#count-el, i{
+    color: aquamarine;
+    font-size: 2.5rem;
+}
+#save-el{
+    color: rgb(6, 142, 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+#save-btn{
+    margin: 5px;
+    padding: .2em .8em ;
+    background: rgb(44, 234, 44);
+    border: 3px solid black;
+    border-radius: 100px;
+}
+#save-btn:hover, #increment-btn:hover{
+    cursor: pointer;
+    opacity: .85;
+}
+#increment-btn{
+    margin: 5px;
+    padding: .2em 1.6em ;
+    background: firebrick;
+    border: 3px solid black;
+    border-radius: 100px;
+}

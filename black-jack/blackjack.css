@@ -1,0 +1,32 @@
+h1{
+    color: goldenrod;
+}
+body{
+    background-image: url(blackjack.jpg);
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 12;
+    color: azure;
+    font-weight: bold;
+}
+#message-el{
+    font-style: italic;
+}
+#game{
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 5px solid burlywood;
+    background: darkgreen;
+    color: goldenrod;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+#game:hover{
+    width: 160px;
+    height: 50px;
+    background: firebrick;
+    color: azure;
+}
